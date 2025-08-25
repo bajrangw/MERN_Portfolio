@@ -1,12 +1,53 @@
-# React + Vite
+# MERN Portfolio 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **developer portfolio** built using the **MERN stack (MongoDB, Express, React, Node.js)** along with **TailwindCSS** and **Framer Motion** for smooth animations.  
 
-Currently, two official plugins are available:
+This portfolio showcases my **skills, projects, and contact information**, designed to leave a lasting impression.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
+👉 [View Portfolio](https://mern-portfolio-drab.vercel.app/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- ⚡ Fully responsive and mobile-friendly design  
+- 🎨 Built with **React + TailwindCSS** for styling  
+- 🌀 Smooth animations using **Framer Motion**  
+- 🌙 **Dark/Light mode** toggle with context API  
+- 📂 Projects showcase with GitHub & Live Demo links  
+- 📧 Contact section with direct email integration  
+- 🔝 Back-to-top button with animation  
+
+---
+
+## 🛠️ Tech Stack
+**Frontend:**
+- React (Vite) ⚛️
+- TailwindCSS 🎨
+- Framer Motion 🌀
+- Lucide Icons / React Icons  
+
+
+**Deployment:**
+- Vercel / Netlify (Frontend)  
+- Render / Railway / Mongo Atlas (Backend + DB if added)  
+
+---
+
+## 📂 Project Structure
+```bash
+MERN_Portfolio/
+│── public/              # Static assets
+│── src/
+│   ├── components/      # Reusable components
+│   ├── sections/        # Page sections (About, Projects, Contact, etc.)
+│   ├── context/         # Theme/State management
+│   ├── utils/           # Helper functions & data
+│   ├── App.jsx          # Root component
+│   └── main.jsx         # Entry point
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+└── README.md
