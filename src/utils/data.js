@@ -154,7 +154,7 @@ export const PROJECTS = [
 export const JOURNEY_STEPS = [
   {
     year: "2021 – Present",
-    title: "Senior E-learning Developer",
+    title: "Senior Developer",
     company: "ansrsource",
     description: [
       "Led and deliver scalable, interactive e-learning solutions for global clients. ",

@@ -108,7 +108,7 @@ const HeroSection = () => {
                   isDarkMode ? "text-gray-500" : "text-gray-600"
                 } mb-4`}
               >
-                Full Stack Developer / Senior E-learning developer
+                Full Stack Developer / Senior developer
               </motion.div>
               {/* Title */}
               <motion.h1
@@ -217,7 +217,7 @@ const HeroSection = () => {
                   isDarkMode ? "text-gray-500" : "text-gray-600"
                 } mb-6`}
               >
-                Full Stack Developer / Senior E-learning developer
+                Full Stack Developer / Senior developer
               </motion.div>
               <motion.h1
                 variants={itemVariants}
