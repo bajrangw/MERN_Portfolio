@@ -298,7 +298,7 @@ const HeroSection = () => {
               variants={imageVariants}
               className="flex justify-center lg:justify-end relative"
             >
-              <div className="relative w-75 h-91 flex flex-col items-center">
+              <div className="relative w-90 h-91 flex flex-col items-center">
                 {/* Tech Stack - Desktop */}
                 <motion.div
                   variants={itemVariants}
