@@ -21,10 +21,10 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter, FiX } from "react-icons/fi";
 
 import PROJECT_IMG_1 from "../assets/images/profile-img.jpg";
-import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_1.png";
-import PROJECT_IMG_3 from "../assets/images/profile-img.jpg";
-import PROJECT_IMG_4 from "../assets/images/profile-img.jpg";
-import PROJECT_IMG_5 from "../assets/images/profile-img.jpg";
+import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_2.png";
+import PROJECT_IMG_3 from "../assets/images/PROJECT_IMG_3.png";
+import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_3.png";
+import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_3.png";
 
 // Skill categories
 export const SKILLS_CATEGORY = [
