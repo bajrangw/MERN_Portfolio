@@ -54,11 +54,15 @@ export const SKILLS_CATEGORY = [
   {
     title: "Database",
     icon: Database,
-    description: "Designing and optimizing data storage solutions",
+    description: "Designing, managing, and optimizing relational and non-relational databases for scalable applications",
     skills: [
       { name: "MongoDB", level: 88, color: "bg-green-600" },
+      { name: "PostgreSQL", level: 82, color: "bg-blue-700" },
+      { name: "MySQL", level: 80, color: "bg-cyan-600" },
+      { name: "SQLite", level: 75, color: "bg-gray-500" },
     ],
   },
+
   {
     title: "DevOps & Tools",
     icon: Cloud,
