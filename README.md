@@ -10,7 +10,7 @@ This portfolio showcases my **skills, projects, and contact information**, desig
 ---
 
 ## 🔗 Live Demo
-👉 [View Portfolio](https://mern-portfolio-drab.vercel.app/)  
+👉 [View Portfolio] (https://www.bajrangwavare.in/) (https://mern-portfolio-drab.vercel.app/) 
 
 ---
 
