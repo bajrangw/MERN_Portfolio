@@ -1,5 +1,7 @@
 # MERN Portfolio 🌐
 
+<img width="1918" height="912" alt="website_img" src="https://github.com/user-attachments/assets/2957ddcd-00be-417d-87f2-64fca105d350" />
+
 A modern and responsive **developer portfolio** built using the **MERN stack (MongoDB, Express, React, Node.js)** along with **TailwindCSS** and **Framer Motion** for smooth animations.  
 
 This portfolio showcases my **skills, projects, and contact information**, designed to leave a lasting impression.
