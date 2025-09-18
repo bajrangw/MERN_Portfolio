@@ -112,7 +112,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Task Manager",
-    description: "A full-stack Task Manager application with user authentication, role-based access(Use Admin Invite Token: 4588944 for admin login ), task assignment, and reporting. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB. Deployed on Vercel for both frontend and backend.",
+    description: "A full-stack Task Manager application with user authentication, role-based access(Use Admin Invite Token: 4588944 for admin login), task assignment, and reporting. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB. Deployed on Vercel for both frontend and backend.",
     image: PROJECT_IMG_3, 
     tags: ["React", "Tailwind CSS", "Axios", "Node.js", "Express", "MongoDB", "Vercel"],
     liveUrl: "https://task-manager-frontend-ten-steel.vercel.app/",
