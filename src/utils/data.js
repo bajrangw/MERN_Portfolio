@@ -23,8 +23,8 @@ import { FiGithub, FiLinkedin, FiTwitter, FiX } from "react-icons/fi";
 import PROJECT_IMG_1 from "../assets/images/profile-img.jpg";
 import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_2.png";
 import PROJECT_IMG_3 from "../assets/images/PROJECT_IMG_3.png";
-import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_3.png";
-import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_3.png";
+import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4.png";
+import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_4.png";
 
 // Skill categories
 export const SKILLS_CATEGORY = [
@@ -135,7 +135,7 @@ export const PROJECTS = [
     id: 4,
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution",
-    image: PROJECT_IMG_3,
+    image: PROJECT_IMG_4,
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "#",
     githubUrl: "#",
@@ -146,7 +146,7 @@ export const PROJECTS = [
     id: 5,
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution",
-    image: PROJECT_IMG_3,
+    image: PROJECT_IMG_4,
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "#",
     githubUrl: "#",
