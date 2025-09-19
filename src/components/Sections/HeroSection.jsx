@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
 import { useTheme } from "../context/ThemeContext";
 import PROFILE_PIC from "../../assets/images/profile-img.jpg";
 import { containerVariants, itemVariants } from "../../utils/helper";
@@ -272,9 +272,10 @@ const HeroSection = () => {
                 className="flex space-x-6 mb-12"
               >
                 {[
-                  { icon: FiGithub, href: "#" },
-                  { icon: FiLinkedin, href: "#" },
-                  { icon: Mail, href: "#" },
+                  { icon: FiGithub, href: "https://github.com/bajrangw" },
+                  { icon: FiLinkedin, href: "https://www.linkedin.com/in/bajrang-wavare-बजरंग-वावरे-27294a64" },
+                  { icon: Mail, href: "mailto:bajrangwavare@gmail.com" },
+                  { icon: FiYoutube, href: "https://www.youtube.com/@Codewith-Bajrang" },
                 ].map((social, index) => (
                   <motion.a
                     key={index}

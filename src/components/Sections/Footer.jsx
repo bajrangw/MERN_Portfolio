@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { Mail, ArrowUp, Code2 } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiTwitter, FiYoutube } from "react-icons/fi";
 import { containerVariants, itemVariants } from "../../utils/helper";
 
 const Footer = () => {
@@ -36,6 +36,12 @@ const Footer = () => {
       name: "Email",
       icon: Mail,
       url: "mailto:bajrangwavare@gmail.com",
+      color: "hover:text-red-400",
+    },
+    {
+      name: "YouTube",
+      icon: FiYoutube,
+      url: "https://www.youtube.com/@Codewith-Bajrang",
       color: "hover:text-red-400",
     },
   ];

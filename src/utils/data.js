@@ -18,7 +18,7 @@ import {
   Phone,
 } from "lucide-react";
 
-import { FiGithub, FiLinkedin, FiTwitter, FiX } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiTwitter, FiX, FiYoutube } from "react-icons/fi";
 
 import PROJECT_IMG_1 from "../assets/images/profile-img.jpg";
 import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_2.png";
@@ -93,8 +93,8 @@ export const TECH_STACK = [
 export const STATS = [
   { number: "100+", label: "Projects Completed in E-learning domain" },
   { number: "13+", label: "Years Experience as Senior developer" },
-  { number: "20+", label: "Technologies" },
-  { number: "62+", label: "Client Satisfaction" },
+  { number: "15+", label: "Technologies" },
+  { number: "50+", label: "Happy Clients" }
 ];
 
 export const PROJECTS = [
@@ -112,7 +112,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Task Manager",
-    description: "A full-stack Task Manager application featuring user authentication, role-based access (with an Admin Invite Token: 4588944 for admin login), task assignment, and reporting. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB, and deployed on Vercel for both the frontend and backend.",
+    description: "A full-stack Task Manager application with user authentication, role-based access (Admin login via Invite Token: 4588944), task assignment, reporting, and Excel report downloads. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB, and deployed on Vercel for both frontend and backend.",
     image: PROJECT_IMG_3, 
     tags: ["React", "Tailwind CSS", "Axios", "Node.js", "Express", "MongoDB", "Vercel"],
     liveUrl: "https://task-manager-frontend-ten-steel.vercel.app/",
@@ -277,6 +277,13 @@ export const SOCIAL_LINKS = [
     url: "mailto:bajrangwavare@gmail.com",
     color: "hover:text-green-400",
     bgColor: "hover:bg-green-500/10",
+  },
+  {
+    name: "YouTube",
+    icon: FiYoutube,
+    url: "https://www.youtube.com/@Codewith-Bajrang",
+    color: "hover:text-red-400",
+    bgColor: "hover:bg-red-500/10",
   },
 ];
 
