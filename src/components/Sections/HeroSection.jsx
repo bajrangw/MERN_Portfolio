@@ -280,6 +280,8 @@ const HeroSection = () => {
                   <motion.a
                     key={index}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ y: -3, scale: 1.1 }}
                     className={`p-3 rounded-full transition-colors ${
                       isDarkMode
