@@ -112,7 +112,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Task Manager",
-    description: "A full-stack Task Manager application with user authentication, role-based access(Use Admin Invite Token: 4588944 for admin login), task assignment, and reporting. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB. Deployed on Vercel for both frontend and backend.",
+    description: "A full-stack Task Manager application featuring user authentication, role-based access (with an Admin Invite Token: 4588944 for admin login), task assignment, and reporting. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB, and deployed on Vercel for both the frontend and backend.",
     image: PROJECT_IMG_3, 
     tags: ["React", "Tailwind CSS", "Axios", "Node.js", "Express", "MongoDB", "Vercel"],
     liveUrl: "https://task-manager-frontend-ten-steel.vercel.app/",
@@ -133,8 +133,8 @@ export const PROJECTS = [
   },
     {
     id: 4,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution",
+    title: "AI Invoice Generator App (WIP)",
+    description: "A full-Stack AI Invoice Generator App using the MERN (MongoDB, Express, React, Node.js) stack, styled with Tailwind CSS, and powered by Google Gemini AI.",
     image: PROJECT_IMG_4,
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "#",
@@ -144,7 +144,7 @@ export const PROJECTS = [
   },
     {
     id: 5,
-    title: "E-Commerce Platform",
+    title: "E-Commerce Platform (WIP)",
     description: "A full-stack e-commerce solution",
     image: PROJECT_IMG_4,
     tags: ["React", "Tailwind", "Framer Motion"],
