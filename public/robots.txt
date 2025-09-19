@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# point crawlers to your sitemap
+Sitemap: https://bajrangwavare.in/sitemap.xml

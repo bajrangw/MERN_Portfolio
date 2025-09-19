@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://bajrangwavare.in/</loc>
+    <lastmod>2025-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bajrangwavare.in/about</loc>
+    <lastmod>2025-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://bajrangwavare.in/projects</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://bajrangwavare.in/blog</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://bajrangwavare.in/contact</loc>
+    <lastmod>2025-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>
