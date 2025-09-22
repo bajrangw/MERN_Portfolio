@@ -8,11 +8,10 @@ import AboutSection from "./components/Sections/AboutSection.jsx";
 import ContactSection from "./components/Sections/ContactSection.jsx";
 import Footer from "./components/Sections/Footer.jsx";
 import { Analytics } from "@vercel/analytics/react";
-import { HelmetProvider } from "react-helmet-async";
+
 
 const App = () => {
   return (
-    <HelmetProvider> 
       <ThemeProvider>
         <div>
           <Navbar />
@@ -24,7 +23,6 @@ const App = () => {
           <Footer />
         </div>
       </ThemeProvider>
-    </HelmetProvider>
   );
 };
 
