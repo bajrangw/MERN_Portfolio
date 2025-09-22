@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useTheme } from "../context/ThemeContext";
 import { JOURNEY_STEPS, PASSIONS } from "../../utils/data";
@@ -11,10 +12,8 @@ const AboutSection = () => {
   const sectionRef = useRef(null);
   const timelineRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
-  const timeLineInview = useInView(timelineRef, {
-    once: true,
-    margin: "-50px",
-  });
+  const timeLineInview = useInView(timelineRef, { once: true, margin: "-50px" });
+
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start end", "end start"],
@@ -22,14 +21,12 @@ const AboutSection = () => {
 
   const y = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
+  // ✅ Variants
   const timelineVarients = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-        delayChildren: 0.3,
-      },
+      transition: { staggerChildren: 0.2, delayChildren: 0.3 },
     },
   };
 
@@ -38,10 +35,7 @@ const AboutSection = () => {
     visible: {
       x: 0,
       opacity: 1,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-      },
+      transition: { duration: 0.6, ease: "easeOut" },
     },
   };
 
@@ -53,6 +47,17 @@ const AboutSection = () => {
         isDarkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
       } relative overflow-hidden`}
     >
+      {/* ✅ SEO Metadata */}
+      <Helmet>
+        <title>About Me | Bajrang Wavare</title>
+        <meta
+          name="description"
+          content="Learn more about Bajrang Wavare, a passionate Full-Stack Developer crafting meaningful digital experiences with React, Node.js, and modern web technologies."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://bajrangwavare.in/about" />
+      </Helmet>
+
       {/* Background Elements */}
       <motion.div style={{ y }} className="absolute inset-0 overflow-hidden">
         <div
@@ -266,33 +271,32 @@ const AboutSection = () => {
 
         {/* Call to Action */}
         <motion.div
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
-        variants={containerVariants}
-        className="text-center mt-20"
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          variants={containerVariants}
+          className="text-center mt-20"
         >
           <motion.div
-          variants={itemVariants}
-          className="flex flex-col items-center space-y-6"
+            variants={itemVariants}
+            className="flex flex-col items-center space-y-6"
           >
             <p
-            className={`text-lg ${
-              isDarkMode ? "text-gray-400" : "text-gray-600"
-            }`}
+              className={`text-lg ${
+                isDarkMode ? "text-gray-400" : "text-gray-600"
+              }`}
             >
               Ready to bring your ideas to life?
-              </p>
+            </p>
 
-              <motion.button
+            <motion.button
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
-              >
-                Let's Work Together
-              </motion.button>
-            </motion.div>
-
+            >
+              Let's Work Together
+            </motion.button>
           </motion.div>
+        </motion.div>
       </div>
     </section>
   );
