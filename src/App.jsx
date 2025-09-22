@@ -8,24 +8,23 @@ import AboutSection from "./components/Sections/AboutSection.jsx";
 import ContactSection from "./components/Sections/ContactSection.jsx";
 import Footer from "./components/Sections/Footer.jsx";
 import { Analytics } from "@vercel/analytics/react";
-
-
+import { HelmetProvider } from "react-helmet-async";
 
 const App = () => {
-
   return (
-    <ThemeProvider>
-    <div>
-      <Navbar />
-      <HeroSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <AboutSection />
-      <ContactSection />
-      <Footer />
-    </div>
-    </ThemeProvider>
-
+    <HelmetProvider> 
+      <ThemeProvider>
+        <div>
+          <Navbar />
+          <HeroSection />
+          <SkillsSection />
+          <ProjectsSection />
+          <AboutSection />
+          <ContactSection />
+          <Footer />
+        </div>
+      </ThemeProvider>
+    </HelmetProvider>
   );
 };
 
