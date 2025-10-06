@@ -24,7 +24,8 @@ import PROJECT_IMG_1 from "../assets/images/profile-img.jpg";
 import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_2.png";
 import PROJECT_IMG_3 from "../assets/images/PROJECT_IMG_3.png";
 import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4.png";
-import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_4.png";
+import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_5.png";
+import PROJECT_IMG_6 from "../assets/images/PROJECT_IMG_6.png";
 
 // Skill categories
 export const SKILLS_CATEGORY = [
@@ -122,31 +123,31 @@ export const PROJECTS = [
   },
   {
     id: 3,
+    title: "AI Invoice Generator",
+    description: "A full-stack AI-powered Invoice Generator built with the MERN stack (MongoDB, Express, React, Node.js). Styled using Tailwind CSS and enhanced with Framer Motion animations, the app leverages Google Gemini AI for intelligent invoice parsing and reminder generation. Key features include creating, updating, and managing invoices, parsing invoice text automatically using AI, generating payment reminder emails, and providing a dashboard with insights.",
+    image: PROJECT_IMG_4,
+    tags: ["React", "Tailwind CSS", "Framer Motion", "MERN", "AI"],
+    liveUrl: "https://ai-invoice-generator-3nts.vercel.app/",
+    githubUrl: "https://github.com/bajrangw/AI_Invoice_Generator",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 4,
     title: "Todo App",
     description: "A full-stack task management application with authentication, database integration, and smooth UI animations. Built using React, Tailwind CSS, Framer Motion, and MongoDB for seamless user experience.",
-    image: PROJECT_IMG_4,
+    image: PROJECT_IMG_5,
     tags: ["React", "Tailwind CSS", "Framer Motion", "MongoDB"],
     liveUrl: "https://todo-app-mu-green.vercel.app/login",
     githubUrl: "https://github.com/bajrangw/Todo_app",
     featured: true,
     category: "Full Stack",
   },
-    {
-    id: 4,
-    title: "AI Invoice Generator App (WIP)",
-    description: "A full-Stack AI Invoice Generator App using the MERN (MongoDB, Express, React, Node.js) stack, styled with Tailwind CSS, and powered by Google Gemini AI.",
-    image: PROJECT_IMG_4,
-    tags: ["React", "Tailwind", "Framer Motion"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    category: "Full Stack",
-  },
-    {
+  {
     id: 5,
     title: "E-Commerce Platform (WIP)",
     description: "A full-stack e-commerce solution",
-    image: PROJECT_IMG_4,
+    image: PROJECT_IMG_6,
     tags: ["React", "Tailwind", "Framer Motion"],
     liveUrl: "#",
     githubUrl: "#",
