@@ -102,7 +102,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: "AI Platform",
-    description: "A full-stack AI Platform that allows users to generate and manage AI-powered creations. Features authentication with Clerk, SQL database integration, and a modern React + Tailwind frontend.",
+    description: "A full-stack AI Platform that enables users to create, manage, and explore AI-powered creations. Key features include user authentication via Clerk, SQL database integration for storing projects, a modern React + Tailwind frontend, real-time updates, and the ability to organize and track AI-generated content efficiently.",
     image: PROJECT_IMG_2,
     tags: ["React", "Tailwind CSS", "Node.js", "Express", "SQL", "Axios", "Clerk"],
     liveUrl: "https://portfolio-01-zeta-three.vercel.app/",
@@ -113,8 +113,8 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Task Manager",
-    description: "A full-stack Task Manager application with user authentication, role-based access (Admin login via Invite Token: 4588944), task assignment, reporting, and Excel report downloads. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB, and deployed on Vercel for both frontend and backend.",
-    image: PROJECT_IMG_3, 
+    description: "A full-stack Task Manager application with user authentication and role-based access (Admin login via Invite Token: 4588944). Key features include creating and assigning tasks, tracking task progress, generating reports, downloading Excel reports, and managing users. Built using React, Tailwind CSS, Axios, Node.js, Express, and MongoDB, and deployed on Vercel for both frontend and backend.",
+    image: PROJECT_IMG_3,
     tags: ["React", "Tailwind CSS", "Axios", "Node.js", "Express", "MongoDB", "Vercel"],
     liveUrl: "https://task-manager-frontend-ten-steel.vercel.app/",
     githubUrl: "https://github.com/bajrangw/Task_Manager",
@@ -126,7 +126,7 @@ export const PROJECTS = [
     title: "AI Invoice Generator",
     description: "A full-stack AI-powered Invoice Generator built with the MERN stack (MongoDB, Express, React, Node.js). Styled using Tailwind CSS and enhanced with Framer Motion animations, the app leverages Google Gemini AI for intelligent invoice parsing and reminder generation. Key features include creating, updating, and managing invoices, parsing invoice text automatically using AI, generating payment reminder emails, and providing a dashboard with insights.",
     image: PROJECT_IMG_4,
-    tags: ["React", "Tailwind CSS", "Framer Motion", "MERN", "AI"],
+    tags: ["React", "Tailwind CSS", "Framer Motion", "MERN", "AI", "Vercel"],
     liveUrl: "https://ai-invoice-generator-3nts.vercel.app/",
     githubUrl: "https://github.com/bajrangw/AI_Invoice_Generator",
     featured: true,
@@ -135,7 +135,7 @@ export const PROJECTS = [
   {
     id: 4,
     title: "Todo App",
-    description: "A full-stack task management application with authentication, database integration, and smooth UI animations. Built using React, Tailwind CSS, Framer Motion, and MongoDB for seamless user experience.",
+    description: "A full-stack task management application designed for seamless productivity. Key features include user authentication, creating and managing tasks, marking tasks as complete, filtering tasks by status, database integration with MongoDB, and smooth UI animations using Framer Motion. Built with React and Tailwind CSS for a modern, responsive interface.",
     image: PROJECT_IMG_5,
     tags: ["React", "Tailwind CSS", "Framer Motion", "MongoDB"],
     liveUrl: "https://todo-app-mu-green.vercel.app/login",
