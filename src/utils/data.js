@@ -26,6 +26,7 @@ import PROJECT_IMG_3 from "../assets/images/PROJECT_IMG_3.png";
 import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4.png";
 import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_5.png";
 import PROJECT_IMG_6 from "../assets/images/PROJECT_IMG_6.png";
+import PROJECT_IMG_7 from "../assets/images/PROJECT_IMG_7.png";
 
 // Skill categories
 export const SKILLS_CATEGORY = [
@@ -147,7 +148,7 @@ export const PROJECTS = [
     id: 5,
     title: "Todo App",
     description: "A full-stack task management application designed for seamless productivity. Key features include user authentication, creating and managing tasks, marking tasks as complete, filtering tasks by status, database integration with MongoDB, and smooth UI animations using Framer Motion. Built with React and Tailwind CSS for a modern, responsive interface.",
-    image: PROJECT_IMG_6,
+    image: PROJECT_IMG_7,
     tags: ["React", "Tailwind CSS", "Framer Motion", "MongoDB"],
     liveUrl: "https://todo-app-mu-green.vercel.app/login",
     githubUrl: "https://github.com/bajrangw/Todo_app",
@@ -156,14 +157,14 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "E-Commerce Platform (WIP)",
+    title: "Blinkit clone (WIP)",
     description: "A full-stack e-commerce solution",
     image: PROJECT_IMG_6,
-    tags: ["React", "Tailwind", "Framer Motion"],
-    liveUrl: "#",
-    githubUrl: "#",
+    tags: ["html", "css"],
+    liveUrl: "https://blinkit-black.vercel.app/",
+    githubUrl: "https://github.com/bajrangw/blinkit",
     featured: false,
-    category: "Full Stack",
+    category: "Frontend",
   },
 ];
 
