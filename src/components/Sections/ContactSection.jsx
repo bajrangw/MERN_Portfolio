@@ -48,19 +48,41 @@ const ContactSection = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!validateForm()) return; // stop if errors
+  e.preventDefault();
+  if (!validateForm()) return;
 
-    setIsSubmitting(true);
+  setIsSubmitting(true);
 
-    // simulate API
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+  try {
+    const formDataToSend = new FormData();
+    formDataToSend.append("access_key", "8c5ccde8-b810-4c75-927c-a3e125e89c75");
+    formDataToSend.append("name", formData.name);
+    formDataToSend.append("email", formData.email);
+    formDataToSend.append("message", formData.message);
+    formDataToSend.append("subject", "New Message From Portfolio Website");
+    formDataToSend.append("from_name", formData.name);
 
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setFormData({ name: "", email: "", message: "" });
-    setTimeout(() => setShowSuccess(false), 3000);
-  };
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formDataToSend,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setShowSuccess(true);
+      setFormData({ name: "", email: "", message: "" });
+      setTimeout(() => setShowSuccess(false), 3000);
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  } catch (error) {
+    alert("Network error. Please try again later.");
+  }
+
+  setIsSubmitting(false);
+};
+
 
   return (
     <section

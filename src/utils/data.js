@@ -135,7 +135,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "Agency.ai website",
+    title: "Agency.ai Website",
     description: "A modern web project built with React and Vite. This boilerplate streamlines development with HMR (Hot Module Replacement) and robust ESLint integration, providing a foundation for scalable production applications.",
     image: PROJECT_IMG_5,
     tags: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
@@ -158,7 +158,7 @@ export const PROJECTS = [
   {
     id: 6,
     title: "Blinkit clone (WIP)",
-    description: "A html css project clone of Blinkit website. Built with HTML and CSS to replicate the design and layout of the Blinkit online grocery platform.",
+    description: "A work-in-progress Blinkit website clone built using HTML and CSS, replicating the layout and visual design of the Blinkit online grocery platform.",
     image: PROJECT_IMG_6,
     tags: ["html", "css"],
     liveUrl: "https://blinkit-black.vercel.app/",
